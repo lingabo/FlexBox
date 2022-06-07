@@ -1,0 +1,208 @@
+
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   display: block;
+}
+.container{
+   height: 900px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
+   
+}
+.header{
+   background-image:url('images/desktop/imghead.jpg');
+   height:120vh;
+   width: 100%;
+   background-size: cover;
+   text-align: center;
+   
+   
+}
+.titre1{
+
+   display: flex;
+   position: relative;
+   padding: 80px;
+   left: 180px;
+   justify-content: center;
+   color: white;
+   font-size: 27px;
+   
+}
+
+.btn1{
+   display: flex;
+   margin: 0;
+   justify-content: center;
+}
+
+.titre2{
+
+   display: flex;
+   text-align: center;
+   padding: 100px;
+   justify-content:center;
+   margin-bottom: 20px;
+}
+.textStyle{
+   line-height: 2em;
+   color: aqua;
+}
+
+
+.icon{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 140px;
+
+}
+
+.images2{
+
+   background-color:white;
+   width: 50%;
+   
+}
+.images3{
+   
+   background-image: url('images/desktop/image-transform.jpg');
+   background-size: cover;
+   height: 50%;
+   width: 50%; 
+}
+
+.images4{
+   
+   background-image: url('images/mobile/image-stand-out.jpg');
+   height: 50%;
+   width: 50%;
+   background-size: cover;
+   
+}
+.images5{
+
+   background-color:white;
+   width: 50%;
+  
+   align-items: center;
+
+}
+.images6{
+
+   background-image: url('images/desktop/image-graphic-design.jpg');
+   height: 50%;
+   width: 50%;
+   background-size: cover;
+
+}
+.images7{
+
+   background-image: url('images/desktop/image-photography.jpg');
+   height: 50%;
+   width: 50%;
+   background-size: cover;
+}
+
+.logo{
+   position: absolute;
+   padding-left:30px;
+   padding: 30px;
+  
+}
+.active{
+   border-radius: 30px;
+   background-color:rgb(255, 255, 255);
+   color: black;
+   padding: 10px;
+   transition: all ease 1s;
+}
+.active :hover{
+   color: rgb(53, 41, 41);
+   background-color: rgb(118, 162, 187);
+}
+
+nav.menu{
+   display: flex;
+   list-style-type: none;
+   color: white;
+}
+nav{
+   float:right;
+   padding: 30px;
+
+}
+nav.menu li{
+
+   display: flex;
+   list-style-type: none;
+   cursor: pointer;
+   margin-right: 15px;
+}
+
+
+h2{
+   text-align: center;
+}
+
+.image8{
+   background-color: brown;
+   height: 50%;
+   width: 100%;
+  
+}
+
+.imageSection{
+  background-image:url('images/desktop/image-gallery-milkbottles.jpg');
+  background-size: cover;
+  height: 70vh;
+  width: 25%;
+   
+}
+
+
+.fouter{
+   background-color: rgb(112, 224, 224);
+   height: 40%;
+   width: 100%;
+   
+}
+
+.logo2{
+   display: flex;
+    justify-content: center;
+     padding: 40px;
+     
+  }
+  
+.lien{
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right:auto;
+   list-style-type: none;
+   font-size: 1.5em;
+   color: gray;
+
+
+}
+.lien li{
+   margin: 10px;
+   cursor: pointer;
+}
+
+/* Responsiveness */
+@media (min-width: 768px){
+   .nav{
+       max-height: none;
+       top: 0;
+       position: relative;
+       float: right;
+       width: fit-content;
+   }
+   }
